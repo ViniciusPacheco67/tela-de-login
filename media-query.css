@@ -1,0 +1,105 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 670px) and (max-width: 992px) {
+    #login {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    float: right;
+    background-color: white;
+    width: 640px;
+    height: 400px;
+    border-radius: 18px;
+     box-shadow: 1px 3px 4px 4px rgba(0, 0, 0, 0.144);
+   
+  }
+
+  #imagen {
+    background-color: #5f9ea0;
+    height: 100%;
+    width: 280px;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    #login {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    float: left;
+    background-color: white;
+    width: 880px;
+    height: 370px;
+    border-radius: 18px;
+    box-shadow: 1px 3px 4px 4px rgba(0, 0, 0, 0.144);
+   
+  }
+
+  #imagen {
+    background-color: #5f9ea0;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    
+}
+
+@media screen and (min-width: 1200px){
+    #login {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    float: left;
+    background-color: white;
+    width: 880px;
+    height: 400px;
+    border-radius: 18px;
+    box-shadow: 1px 3px 4px 4px rgba(0, 0, 0, 0.144);
+   
+  }
+
+  #imagen {
+    background-color: #5f9ea0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    
+}

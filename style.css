@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(150, 170, 170);
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+   display: flex;
+   min-height: 100vh;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+#login {
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+    width: 280px;
+    height: 570px;
+    border-radius: 18px;
+    box-shadow: 2px 2px 3px 5px rgba(0, 0, 0, 0.082);
+    
+    transition: height, .7s ease, width .7s ease;
+   
+}
+
+#imagen {
+    background-color: #5f9ea0;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulario {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#tela-login {
+    
+    height: 500px;
+    background-color: white;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.campo {
+    background-color: #5f9ea0;
+    border: 2px solid #5f9ea0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 44px;
+    padding-left: 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#logo {
+    font-size: 26px;
+    color:#8e9797;
+    align-items: center;
+    padding-top: 8px;
+    padding-right: 8px;
+    height: 100%;
+}
+
+.campo > label {
+    display: none;
+
+}
+
+.campo > input {
+    background-color: #5f9ea0;
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.campo > input:hover {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+
+#btn {
+    background-color:#5f9ea0;
+    align-items: center;
+    justify-self: center;
+    height: 44px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    color: #ffffff;
+    background-color: #1ea5a5;
+}
+
+a {
+    display: flex;
+    color: #8e9797;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
