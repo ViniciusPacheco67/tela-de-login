@@ -3,8 +3,8 @@ function Clicar() {
     var senha = document.getElementById('isenha').value
     var resposta = document.getElementById('resposta').value
 
-    alert(`Olá ${email}, seja bem-vindo!`)
-    alert(`Oi ${senha},  shhhhhhhhi 🤫`)
+    alert(`Olá, ${email}, seja bem-vindo!`)
+    alert(`Oi, ${senha},  shhhhhhhhi 🤫`)
 
     if (email.length < 10 || !email.includes('@')) {
     resposta.innerHTML = '<p style="color: red;">Email inválido</p>';
