@@ -128,7 +128,7 @@ main {
 }
 
 .campo > input:hover {
-    background-color: white;
+    background-color: rgb(230, 227, 225);
     height: 100%;
     width: 100%;
 }
