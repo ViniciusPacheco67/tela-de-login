@@ -18,3 +18,9 @@ function Clicar() {
 
     resposta.innerHTML = `<p style="color: green;">Olá <strong>${email}</strong>, seja bem-vindo!</p>`;
 }
+
+ScrollReveal().reveal('#formulario', h1 , p, {
+    delay: 375,
+    duration: 500,
+    reset: true
+});
